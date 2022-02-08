@@ -1,4 +1,4 @@
-*-if getgenv().Aiming then return getgenv().Aiming end
+if getgenv().Aiming then return getgenv().Aiming end
 
 --[[
 
