@@ -12,7 +12,7 @@ This script was made by Stefanuk12
 
 
 -- // Dependencies
-local SignalManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/InkognoitoCurry/Signal/a39effec7517f460bf6b2ffe159ef40590959f74/Manager.lua"))()
+local SignalManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Signal/main/Manager.lua"))()
 local BeizerManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/InkognoitoCurry/ROBLOX/master/Universal/Aiming/BeizerManager.lua"))()
 
 -- // Services
@@ -55,7 +55,7 @@ local Aiming = {
 
     ShowFOV = true,
     FOV = 25,
-    FOVSides = 25,
+    FOVSides = 12,
     FOVColour = Color3fromRGB(0, 255, 0),
 
     VisibleCheck = true,
