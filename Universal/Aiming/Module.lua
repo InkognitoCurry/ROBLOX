@@ -7,16 +7,14 @@ This script was made by Stefanuk12
 
 ]]--
 
-
-
-
-
--- // Dependencie
-local SignalManager = loadstring(game:HttpGet(https://raw.githubusercontent.com/InkognoitoCurry/Signal/a39effec7517f460bf6b2ffe159ef40590959f74/Manager.lua"))()
-
---local SignalManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Signal/main/Manager.lua"))()
-local BeizerManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/InkognoitoCurry/ROBLOX/master/Universal/Aiming/BeizerManager.lua"))()
 --local BeizerManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Aiming/BeizerManager.lua"))()
+--local SignalManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Signal/main/Manager.lua"))()
+
+
+-- // Dependencies
+local SignalManager = loadstring(game:HttpGet(https://raw.githubusercontent.com/InkognoitoCurry/Signal/a39effec7517f460bf6b2ffe159ef40590959f74/Manager.lua"))()
+local BeizerManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/InkognoitoCurry/ROBLOX/master/Universal/Aiming/BeizerManager.lua"))()
+
 -- // Services
 local Players = game:GetService("Players")
 local Workspace = game:GetService("Workspace")
