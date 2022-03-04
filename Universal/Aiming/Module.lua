@@ -55,21 +55,23 @@ local Aiming = {
 
     ShowFOV = true,
     FOV = 50,
-    FOVSides = 24,
+    FOVSides = 25,
     FOVColour = Color3fromRGB(0, 255, 0),
 
     VisibleCheck = true,
-    ShowCredits = true,
+    ShowCredits = false,
 
-    HitChance = 100,
+    HitChance = 99,
 
     Selected = nil,
     SelectedPart = nil,
     SelectedPosition = nil,
     SelectedPositionOnScreen = nil,
 
-    TargetPart = {"Head", "HumanoidRootPart"},
+--    TargetPart = {"Head", "HumanoidRootPart"},
+    TargetPart = {"Head"},
 
+    
     Ignored = {
         Teams = {
             {
