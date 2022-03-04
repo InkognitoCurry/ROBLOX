@@ -199,7 +199,7 @@ do
         Visible = true,
         ZIndex = 0,
         Transparency = 1,
-        Color = Color3.fromRGB(255, 150, 150),
+        Color = Color3.fromRGB(1, 255, 1),
 
         Thickness = 3,
         Filled = false
@@ -285,10 +285,10 @@ do
         Visible = true,
         ZIndex = 0,
         Transparency = 1,
-        Color = Color3.fromRGB(255, 150, 150),
+        Color = Color3.fromRGB(1, 255, 1),
 
         Text = nil,
-        Size = 14,
+        Size = 15,
         Center = true,
         Outline = true,
         OutlineColor = Color3.fromRGB(255, 255, 255),
@@ -301,7 +301,7 @@ do
 
         RenderDistance = 1/0,
 
-        ScaleWithDistance = true,
+        ScaleWithDistance = false, --true
         _Size = 1/4,
         _SizeClamp = {1, 14}
     }
@@ -420,7 +420,7 @@ do
     -- // Vars
     Tracer.DrawingType = "Line"
     Tracer.DrawingDefault = {
-        Visible = true,
+        Visible = false,
         ZIndex = 0,
         Transparency = 1,
         Color = Color3.fromRGB(255, 150, 150),
@@ -429,13 +429,13 @@ do
         Thickness = 3
     }
     Tracer.IdealData = {
-        Enabled = true,
+        Enabled = false,
         Object = nil,
         Offset = nil,
 
         RenderDistance = 1/0
     }
-    Tracer.GlobalEnabled = true
+    Tracer.GlobalEnabled = false
     Tracer.GlobalLookAtCamera = false
 
     -- // Constructor
