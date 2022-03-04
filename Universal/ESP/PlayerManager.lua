@@ -1,5 +1,5 @@
 -- // Dependencies
-local Manager, Base = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/ESP/Manager.lua"))()
+local Manager, Base = loadstring(game:HttpGet("https://raw.githubusercontent.com/InkognoitoCurry/ROBLOX/master/Universal/ESP/Manager.lua"))()
 
 -- // Services
 local Players = game:GetService("Players")
