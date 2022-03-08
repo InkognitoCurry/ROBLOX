@@ -8,7 +8,7 @@ local RunService = game:GetService("RunService")
 -- // Vars
 Aiming.AimLock = {
     Enabled = true,
-    Keybind = Enum.UserInputType.MouseButton1, -- // You can also have Enum.KeyCode.E, etc.
+    Keybind = Enum.UserInputType.MouseButton2, -- // You can also have Enum.KeyCode.E, etc.
 }
 local Settings = Aiming.AimLock
 
