@@ -2,8 +2,7 @@ if getgenv().Aiming then return getgenv().Aiming end
 
 --[[
 
-
-This script was made by Stefanuk12
+Credits to Stefanuk12.
 
 ]]--
 
@@ -70,8 +69,8 @@ local Aiming = {
     SelectedPositionOnScreen = nil,
 
 --    TargetPart = {"Head", "HumanoidRootPart"},
-    TargetPart = {"Head", "Torso"},
---    TargetPart = {"Torso"},
+---    TargetPart = {"Head", "Torso"},
+    TargetPart = {"Torso"},
     
     Ignored = {
         Teams = {
