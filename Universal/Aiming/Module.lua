@@ -71,7 +71,7 @@ local Aiming = {
 
 --    TargetPart = {"Head", "HumanoidRootPart"},
     TargetPart = {"Head", "Torso"},
-
+--    TargetPart = {"Torso"},
     
     Ignored = {
         Teams = {
@@ -104,7 +104,7 @@ end
 -- // Create circle
 local circle = Drawingnew("Circle")
 circle.Transparency = 1
-circle.Thickness = 2
+circle.Thickness = 3
 circle.Color = Aiming.FOVColour
 circle.Filled = false
 Aiming.FOVCircle = circle
