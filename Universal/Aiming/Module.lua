@@ -12,7 +12,7 @@ Credits to Stefanuk12.
 
 -- // Dependencies
 local SignalManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Signal/main/Manager.lua"))()
-local BeizerManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/InkognoitoCurry/ROBLOX/master/Universal/Aiming/BeizerManager.lua"))()
+local BeizerManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/InkognitoCurry/ROBLOX/master/Universal/Aiming/BeizerManager.lua"))()
 
 -- // Services
 local Players = game:GetService("Players")
