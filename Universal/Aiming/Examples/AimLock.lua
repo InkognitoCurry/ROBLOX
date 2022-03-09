@@ -1,5 +1,5 @@
 -- // Dependencies
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/InkognoitoCurry/ROBLOX/master/Universal/Aiming/Load.lua"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/InkognitoCurry/ROBLOX/master/Universal/Aiming/Load.lua"))()
 
 -- // Services
 local UserInputService = game:GetService("UserInputService")
