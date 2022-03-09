@@ -61,16 +61,16 @@ local Aiming = {
     ShowCredits = false,
 
 --    HitChance = 100,
-    HitChance = 50,
+    HitChance = 100,
 
     Selected = nil,
     SelectedPart = nil,
     SelectedPosition = nil,
     SelectedPositionOnScreen = nil,
 
---    TargetPart = {"Head", "HumanoidRootPart"},
+    TargetPart = {"Head", "HumanoidRootPart"},
 ---    TargetPart = {"Head", "Torso"},
-    TargetPart = {"Torso"},
+--    TargetPart = {"Torso"},
     
     Ignored = {
         Teams = {
